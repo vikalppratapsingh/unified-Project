@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">MyPortfolio</div>
+            <ul id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <img src="Profilephoto.png" alt="Profile photo" class="profile-pic">
+            <h1>VIKALP PRATAP SINGH</h1>
+            <p>Web Developer | Coder | Designer</p>
+            <p>Welcome to my portfolio!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write about your background, education, experience, and hobbies here.</p>
+        <ul>
+            <li>Bachelor's in Computer Science, AMITY University</li>
+            <li>I'm passionate about technology</li>
+            <li>Hobbies:Gyming,Travelling, Gaming</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-gallery">
+            <div class="project-card">
+                <img src="project1.png" alt="Project 1">
+                <h3>To-Do List</h3>
+                <p>A task management app built with HTML, CSS, and JavaScript that lets users add, edit, delete, and complete tasks. Data is stored in localStorage for persistence.</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.png" alt="Project 2">
+                <h3>Calculator</h3>
+                <p>A responsive calculator using HTML, CSS, and JavaScript that performs basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download class="btn">Download Resume (PDF)</a>
+        <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
